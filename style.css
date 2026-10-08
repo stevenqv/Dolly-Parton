@@ -1,0 +1,157 @@
+/* ========================================
+   Body
+======================================== */
+
+body {
+
+  /* Define the font family (with a backup font) */
+  /* font-family: Arial, sans-serif; */
+  font-family: Arial, sans-serif;
+  /* Set the text color */
+  /* color: #333; */
+  color: #333;
+  /* Set the page background color */
+  /* background-color: beige; */
+  background-color: beige;
+}
+
+/* ========================================
+   Headings & Paragraphs
+======================================== */
+
+h1 {
+
+  /* Change the size of the main heading */
+  /* font-size: 2.5rem; */
+  font-size: 2.5rem;
+  /* Make the heading bold */
+  /* font-weight: bold; */
+  font-weight: bold;
+  /* Change the heading color */
+  /* color: deeppink; */
+  color: deeppink;
+}
+
+h2 {
+
+  /* Change the heading size */
+  /* font-size: 1.75rem; */
+  font-size: 1.75rem;
+}
+
+h3 {
+
+  /* Change the heading size */
+  /* font-size: 1.25rem; */
+  font-size: 1.25rem;
+}
+
+p {
+
+  /* Add space between lines of text */
+  /* line-height: 1.5; */
+  line-height: 1.5;
+}
+
+/* ========================================
+   Navigation
+======================================== */
+
+nav ul {
+
+  /* Remove the default bullets */
+  /* list-style: none; */
+  list-style: none;
+}
+
+nav a {
+
+  /* Remove the default underline */
+  /* text-decoration: none; */
+  text-decoration: none;
+  /* Change the link color */
+  /* color: deeppink; */
+  color: deeppink;
+}
+
+/* ========================================
+   Main Content
+======================================== */
+
+section {
+
+  /* Draw a border around each section */
+  /* border: 3px solid pink; */
+  border: 3px solid pink;
+  /* Add space inside the border */
+  /* padding: 1rem; */
+  padding: 1rem;
+  /* Add space outside the section */
+  /* margin: 2rem; */
+  margin: 2rem;
+  /* Round the corners */
+  /* border-radius: 10px; */
+  border-radius: 10px;
+}
+
+/* ========================================
+   ID Selector
+======================================== */
+
+#songs {
+
+  /* Target only the Songs section */
+  /* border: 5px dashed deeppink; */
+  border: 5px dashed deeppink;
+}
+
+/* ========================================
+   Images
+======================================== */
+
+img {
+
+  /* Add a border */
+  /* border: 3px solid #999; */
+  border: 3px solid #999;
+  /* Round the corners */
+  /* border-radius: 10px; */
+  border-radius: 10px;
+}
+
+/* ========================================
+   Buttons
+======================================== */
+
+button {
+
+  /* Add space inside the button */
+  /* padding: .75rem 1rem; */
+  padding: .75rem 1rem;
+  /* Remove the default border */
+  /* border: none; */
+  border: none;
+  /* Round the corners */
+  /* border-radius: 8px; */
+  border-radius: 8px;
+  /* Set the button color */
+  /* background-color: deeppink; */
+  background-color: deeppink;
+  /* Change the text color */
+  /* color: white; */
+  color: white;
+}
+
+/* ========================================
+   Footer
+======================================== */
+
+footer {
+
+  /* Change the background color */
+  /* background-color: pink; */
+  background-color: pink;
+  /* Add padding */
+  /* padding: 1rem; */
+  padding: 1rem;
+}
